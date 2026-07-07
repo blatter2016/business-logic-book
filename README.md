@@ -22,4 +22,6 @@ The generated site is written to the `book/` directory.
 
 ## Published site
 
-The book is automatically built and deployed to GitHub Pages on every push to `main`.
+The book is automatically built and deployed to GitHub Pages on every push to `main`:
+
+<https://blatter2016.github.io/business-logic-book/>
