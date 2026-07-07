@@ -1,0 +1,43 @@
+[book]
+title = "Business Logic Patterns: A Practitioner's Guide to Managing Complexity at Scale"
+authors = ["Research-Engineered Guide"]
+description = "A comprehensive practitioner's guide to categorising, implementing, composing, and managing business logic patterns in enterprise software."
+src = "src"
+language = "en"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+default-theme = "rust"
+preferred-dark-theme = "navy"
+mathjax-support = true
+copy-fonts = true
+git-repository-url = "https://github.com/your-org/business-logic-patterns"
+edit-url-template = "https://github.com/your-org/business-logic-patterns/edit/main/{path}"
+
+[output.html.fold]
+enable = true
+level = 1
+
+[output.html.search]
+enable = true
+limit-results = 20
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+
+[output.html.print]
+enable = true
+page-break = true
+
+[output.html.playground]
+editable = false
+
+[output.html.redirect]
+"/introduction.html" = "/chapter_01.html"
