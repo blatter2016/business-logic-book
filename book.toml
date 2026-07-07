@@ -13,9 +13,9 @@ create-missing = false
 default-theme = "rust"
 preferred-dark-theme = "navy"
 mathjax-support = true
-copy-fonts = true
-git-repository-url = "https://github.com/your-org/business-logic-patterns"
-edit-url-template = "https://github.com/your-org/business-logic-patterns/edit/main/{path}"
+git-repository-url = "https://github.com/blatter2016/business-logic-book"
+edit-url-template = "https://github.com/blatter2016/business-logic-book/edit/main/{path}"
+site-url = "/business-logic-book/"
 
 [output.html.fold]
 enable = true
